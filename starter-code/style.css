@@ -34,6 +34,8 @@
   --text-preset-7-spacing: 2px;
 
   /* TYPOGRAPHY (MOBILE)~LATER */
+  --text-preset-2-font-mobile: 700 24px/1.25 "Libre Baskerville", serif;
+  --text-preset-2-spacing-mobile: 0px;
 }
 
 body {
@@ -70,7 +72,6 @@ body {
     height: 100%;
     display: grid;
     column-gap: 10px;
-    background-color: red;
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: 10px;
 
@@ -80,9 +81,8 @@ body {
     
 }
 #template-1{
-    background-color: green;
     grid-row: 1/span 25;
-    
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg");
 }
 #template-2{
     background-color: yellow;
@@ -141,3 +141,32 @@ body {
     grid-row: 97/span 34;
 }
 
+.bento-grid>div{
+    opacity: 0.8;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--white);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+}
+.bento-grid-title{
+    font: var(--text-preset-2-font-mobile);
+    letter-spacing: var(--text-preset-2-spacing-mobile);
+    margin-bottom: 0;
+}
+.bento-grid-author{
+    font: var(--text-preset-6-font);
+    letter-spacing: var(--text-preset-6-spacing);
+}
+
+
+.bento-grid > div:hover{
+    opacity: 1;
+    transition: all 0.3s;
+    cursor: pointer;
+}
