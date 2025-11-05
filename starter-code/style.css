@@ -85,60 +85,60 @@ body {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg");
 }
 #template-2{
-    background-color: yellow;
     grid-row: 1/span 40;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg");
 }
 #template-3{
-    background-color: aqua;
     grid-row: 1/span 29;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Mural_del_Gernika.jpg");
 }
 #template-4{
-    background-color: green;
     grid-row: 1/span 25;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/25/Artemisia_Gentileschi_%E2%80%94_Conversione_della_Maddalena_%28Maria_Maddalena_penitente.jpg");
 }
 #template-5{
-    background-color: yellow;
     grid-row: 27/span 34;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg/800px-Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg");
 }
 #template-6{
-    background-color: #000000;
     grid-row: 42/span 28;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg");
 }
 #template-7{
-    background-color: beige;
     grid-row: 31/span 49;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Vincent_Willem_van_Gogh_102.jpg/500px-Vincent_Willem_van_Gogh_102.jpg");
 }
 #template-8{
-    background-color: aquamarine;
     grid-row: 27/span 25;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/La_Boh%C3%A9mienne_endormie.jpg/1280px-La_Boh%C3%A9mienne_endormie.jpg");
 }
 #template-9{
-    background-color: #7d7d7d;
     grid-row: 62/ span 42;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lady_with_an_Ermine_-_Leonardo_da_Vinci_%28adjusted_levels%29.jpg/800px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_%28adjusted_levels%29.jpg");
 }
 #template-10{
     grid-row: 71/span 26;
-    background-color: azure;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vincent_Willem_van_Gogh_076.jpg/1024px-Vincent_Willem_van_Gogh_076.jpg");
 }
 #template-11{
     grid-row: 81/span 50;
-    background-color: darkblue;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg");
 }
 #template-12{
     grid-row: 53/span 43;
-    background-color: sienna;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg/1024px-Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg");
 }
 #template-13{
-    background-color: chartreuse;
     grid-row: 105/span 26;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Le_Gar%C3%A7on_au_gilet_rouge%2C_par_Paul_C%C3%A9zanne%2C_FWN_496.jpg/800px-Le_Gar%C3%A7on_au_gilet_rouge%2C_par_Paul_C%C3%A9zanne%2C_FWN_496.jpg");
 }
 #template-14{
-    background-color: gold;
     grid-row: 98/span 33;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/800px-The_Arnolfini_portrait_%281434%29.jpg");
 }
 #template-15{
-    background-color: khaki;
     grid-row: 97/span 34;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fragonard%2C_The_Swing.jpg/500px-Fragonard%2C_The_Swing.jpg");
 }
 
 .bento-grid>div{
